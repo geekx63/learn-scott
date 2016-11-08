@@ -1,12 +1,14 @@
-const Koa = require('koa');
+import Koa from 'koa';
 const app = new Koa();
-const router = require('koa-router')();
+import koaRouter from 'koa-router';
+const router = koaRouter();
 import views from 'koa-views';
 import co from 'co';
 import convert from 'koa-convert';
 import json from 'koa-json';
 import onerror from 'koa-onerror';
-const bodyparser = require('koa-bodyparser')();
+import koaBodyparser from 'koa-bodyparser';
+const bodyparser = koaBodyparser();
 import logger from 'koa-logger';
 import path from 'path';
 import fs from 'fs';
