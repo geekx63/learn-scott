@@ -1,0 +1,10 @@
+{
+	"okCoin":{
+		"apiKey":"",
+		"secretKey":""
+	},
+	"huoBi":{
+		"apiKey":"",
+		"secretKey":""
+	}
+}
